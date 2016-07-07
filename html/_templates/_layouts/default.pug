@@ -1,0 +1,27 @@
+block default-vars
+  - title = 'Matt Medal'
+  - navPage = 'home'
+block vars
+
+
+doctype html
+html(lang='en')
+  head
+    block head
+      title= title
+
+      meta(charset='utf-8')
+      meta(name='viewport', content='width=device-width, initial-scale=1')
+
+      link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Source+Code+Pro')
+      link(rel='stylesheet', href='/app.css')
+      link(rel='icon', href='/favicon-196x196.png')
+
+  body
+    div
+      include ../_partials/header.pug
+
+      div
+        block content
+
+      include ../_partials/footer.pug
