@@ -2,12 +2,12 @@
 
 
 .header
-  h1
+  span
     a(href='/') MATT MEDAL
-  ul.no-print
-    li(class=(navPage === 'home' ? a : ''))
+  div.no-print
+    div(class=(navPage === 'home' ? a : ''))
       a(href='/') Home
-    li(class=(navPage === 'blog' ? a : ''))
+    div(class=(navPage === 'blog' ? a : ''))
       a(href='/blog') Blog
-    li(class=(navPage === 'resume' ? a : ''))
+    div(class=(navPage === 'resume' ? a : ''))
       a(href='/resume') Résumé

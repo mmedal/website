@@ -1,0 +1,42 @@
+@import 'colors';
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid @border-white;
+  margin-top: 30px;
+  padding-top: 10px;
+
+  p {
+    margin: 0 0 10px;
+  }
+
+  .left {
+    font-size: 20px;
+
+    a {
+      margin-right: 8px;
+      text-decoration: none;
+      color: @text-white;
+
+      &:hover {
+        color: @nav-hover;
+      }
+    }
+  }
+
+  .right {
+    font-size: 14px;
+
+    a {
+      text-decoration: none;
+      color: @text-white;
+
+      &:hover {
+        color: @nav-hover;
+      }
+    }
+  }
+}
