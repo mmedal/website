@@ -1,0 +1,79 @@
+extends ../_templates/_layouts/default.pug
+
+
+block vars
+  - title = 'Matt Medal · Résumé'
+  - navPage = 'resume'
+
+
+block content
+  .resume
+    .res-contact
+      strong Email:&nbsp;
+      a(href='mailto:matt.medal@gmail.com', target='_blank') matt.medal@gmail.com
+      br
+      strong Phone:&nbsp;
+      a(href='tel://1-408-460-2148') (408) 460-2148
+      br
+      strong GitHub:&nbsp;
+      a(href='https://github.com/scott113341', target='_blank') github.com/mmedal
+      br
+      strong LinkedIn:&nbsp;
+      a(href='https://www.linkedin.com/in/scott113341', target='_blank') linkedin.com/in/mmedal
+    .section
+      h2 Job Experience
+      .subsection
+        h3
+          span Storage IaaS Software Engineer
+          |  at eBay
+          small June 2013 - Current | San Jose, CA
+        p Full stack engineer on large scale storage platforms providing self-servive/admin management, automation, comprehensive insight, and performance monitoring of IP filers (Netapp, Solidfire, Violin, etc) and Oracle SAN environment across petabytes of business-impacting data.
+        ul
+          li Worked on developer team of 3 to provide problem detection, management automation, and data insight software solutions to ebay.com's storage ops team of 15.
+          li Worked on a total of 15+ software projects, ranging from large scale Django webapps to CLIs to micro REST APIs to job-processing backends.
+          li Highly self-sufficient role requiring more than just quality software engineering, but also knowledge and admininistration of entire dev process, from providing automated software deployment solutions to architecting and maintaining our performance-monitoring stack.
+          li Accomplished writer of documentation and the goto resource for python code style --- the defacto code reviewer for all python in eBay's storage department.
+          li Core technologies used and mastered: python, django, django-rest-framework, celery, graphite, grafana, docker, angular, git (with github and the flow paradigm).
+      .subsection
+        h3
+          span QA Operations Software Engineer Intern
+          |  at eBay
+          small Summer 2012 | San Jose, CA
+        p Integration engineer providing automation and monitoring for eBay's QA environment.
+        ul
+          li Design and develop a suite of tools for monitoring and reporting all of QA's SAN/NAS storage usage.
+          li Design and develop a modernized SNMP monitoring solution for trap management utilizing custom built parse tools.
+          li Core technologies used and mastered: python, ipmi, manufacturer-specific LOM hardware, snmp, splunk.
+      .subsection
+        h3
+          span IT Technician
+          |  at Bellarmine College Preparatory
+          small May 2010 - June 2012
+        p Maintain and provide hardware/software support for computer network on a campus of 1700 students and faculty on an IT team of 3.
+          ul
+            li Configure, maintain, and support Windows and OSX servers.
+            li Scripting to automate time consuming processes such as computer imaging and new software installs.
+            li Provide on-demand support and tutorials for all faculty and staff, requiring excellent communication skills and customer support methodologies.
+            li Core technologies used and mastered: Windows & OSX administration, python, powershell, networking.
+    .section
+      h2 Skills
+      .subsection
+        h3
+          | Software Development
+          small Experienced
+        p Experience in practical software development, developer processes and workflows in team environments, opensource contributions, developer tooling, and a solid foundation in critical thinking, algorithms, and data structures.
+        ul
+          li
+            strong Programming languages
+            | : Python (extremely proficient), Javascript (proficient), Elixir (proficient), Objective C (proficient), C++ (familiar).
+    .section
+      h2 Education
+      .subsection
+        h3
+          | Santa Clara University
+          small Class of 2014 | Santa Clara, CA
+        p Bachelor of Science, Computer Science
+      .subsection
+        h3
+          | Bellarmine College Preparatory
+          small Class of 2010 | San Jose, CA
