@@ -21,59 +21,66 @@ block content
       strong LinkedIn:&nbsp;
       a(href='https://www.linkedin.com/in/mmedal', target='_blank') linkedin.com/in/mmedal
     .section
+      h2 TLDR
+      .subsection
+        p Résumés are long. Start (and maybe end) here.
+        ul
+          li I love getting stuff done with python and node, but am most excited by Elixir and Ocaml/Reason.
+          li I love open source software and contributing to the projects I use.
+          li I love white hat shenanigans. Ask, and I'll regale you with a tale or two.
+          li I love playing video games, making electronic music, and drinking hazy IPAs.
+          li I dislike mediocre stand-up comedy, spiders, and Java of the non-coffee variety.
+        p If we agree on the above, maybe we're a good fit for each other!
+    .section
       h2 Job Experience
       .subsection
         h3
-          span Storage IaaS Software Engineer
+          span Software Engineer
           |  at eBay
-          small June 2013 - Current | San Jose, CA
-        p Full stack engineer on large scale storage platforms providing self-servive/admin management, automation, comprehensive insight, and performance monitoring of IP filers (Netapp, Solidfire, Violin, etc) and Oracle SAN environment across petabytes of business-impacting data.
+          small May 2013 - Current | 5 years
+        p Full stack engineer for eBay's storage team, developing scalable applications for management, automation, insight, and performance monitoring for all of eBay's production data.
         ul
-          li Worked on developer team of 3 to provide problem detection, management automation, and data insight software solutions to ebay.com's storage ops team of 15.
-          li Designed and worked on a total of 15+ software projects, ranging from large scale Django webapps to CLIs to micro REST APIs to job-processing backends.
-          li Highly self-sufficient role requiring more than just quality software engineering, but also knowledge and admininistration of entire dev process, from providing automated software deployment solutions to architecting and maintaining our performance-monitoring stack.
-          li Accomplished writer of documentation and the goto resource for python code style --- the defacto code reviewer for all python in eBay's storage department.
-          li Core technologies used and mastered: python, django, django-rest-framework, celery, graphite, grafana, docker, angular, git (with github and the flow paradigm).
+          li As one of the most trafficked sites in the world, eBay deals in petabytes of data. I spent 5 years developing the core applications that power eBay's modern storage environment and empower its ops team.
+          li Working on a small dev team had me getting my hands dirty up and down the stack. I have built everything from large-scale webapps to RESTful microservices to reactive frontends to job-processing backends and everything inbetween!
+          li I love using services like Travis or GCP for my personal projects, but I didn't have the pleasure of using them at work. That means I had to hunker down and administer my own CICD and software deployment solutions.
+          li Highlighted tech: nodejs, python, django, celery, react, graphite, docker, kubernetes, postgres.
       .subsection
         h3
-          span QA Operations Software Engineer Intern
+          span Software Engineer Intern
           |  at eBay
-          small Summer 2012 | San Jose, CA
-        p Integration engineer providing automation and monitoring for eBay's QA environment.
+          small 2012 | Summer
+        p Backend developer for eBay's QA team, developing automation and monitoring to empower QA system admins.
         ul
-          li Designed and developed a suite of tools for monitoring and reporting all of QA's SAN/NAS storage usage, allowing for better hardware purchase planning.
-          li Designed and developed a modernized SNMP monitoring solution for trap management, providing a cleaner interface for system health alerts.
-          li Core technologies used and mastered: python, ipmi, manufacturer-specific LOM hardware, snmp, splunk.
-      .subsection
-        h3
-          span IT Technician
-          |  at Bellarmine College Preparatory
-          small May 2010 - June 2012
-        p Maintain and provide hardware/software support for computer network on a campus of 1700 students and faculty on an IT team of 3.
-          ul
-            li Configured, maintained, and supported Windows and OSX servers.
-            li Introduced software automation to displace previously manual labor such as computer imaging and new software installs.
-            li Provided on-demand support and tutorials for all faculty and staff, requiring excellent communication skills and customer support methodologies.
-            li Core technologies used and mastered: Windows & OSX administration, python, powershell, networking.
+          li Developed a suite of tools for monitoring and reporting all of QA's SAN/NAS storage usage, allowing for better hardware purchase planning.
+          li Developed a robust replacement for traditional SNMP/log-based monitoring for thousands of assets. Think in-house elastic search or logstash before they were cool.
     .section
       h2 Skills
       .subsection
-        h3 Software Development
-          small Experienced
+        h3
+          span Software Development
         p Experience in practical software development, developer processes and workflows in team environments, opensource contributions, developer tooling, and a solid foundation in critical thinking, algorithms, and data structures.
         ul
           li
             strong Programming languages
-            | : Python (extremely proficient), Javascript (proficient), Elixir (proficient), Java (familiar), Golang (familiar), Objective C (familiar), C++ (familiar).
+            | : Python (extremely proficient), Javascript ES6 (very proficient), Elixir (familiar), Java (familiar), Golang (familiar), Objective C (familiar), C++ (familiar).
           li
-            strong Development workflows
-            | : Agile, test-first development, git-flow.
+            strong Development workflow
+            | : Agile-ish (because you never go full agile!) + github + pull requests + code reviews.
           li
             strong Linux fluency
-            | : Experienced --- can curl, vim, cat, pipe, and get things done in a shell (preferably zsh) like a champ!
-        h3 Leadership
-          small Experienced
-        p Experience in leading the design and development of green-field software projects as well as onboarding, mentoring, and time management of new employees/contractors.
+            | : Can curl, vim, cat, pipe, and get things done in a shell (preferably zsh) like a champ!
+        h3
+          span Leadership
+        p Experience in leading the design and development of green-field software projects, interviewing new software engineer candidates, and onboarding, mentoring, and time management of new employees/contractors.
+    .section
+      h2 Personal Projects
+      .subsection
+        p I've worked on a lot of cool projects, but here are a couple of my favorites:
+        h3 <a href="https://www.soundcasts.net">soundcasts.net</a>
+        p I like to listen to EDM podcasts while I work, but many of my favorite artists put their radio shows in an indigestible state on soundcloud. Soundcasts turns an artist's soundcloud profile into an easily followed podcast!
+      .subsection
+        h3 <a href="https://github.com/mmedal/magicbot">Magicbot</a>
+        p My coworkers made an #mtg channel on Slack to talk about the latest Magic cards. I made a slack bot for #mtg that displays the images of referred-to cards.
     .section
       h2 Education
       .subsection
@@ -81,7 +88,3 @@ block content
           | Santa Clara University
           small Class of 2014 | Santa Clara, CA
         p Bachelor of Science, Computer Science
-      .subsection
-        h3
-          | Bellarmine College Preparatory
-          small Class of 2010 | San Jose, CA
