@@ -6,10 +6,10 @@
   "repository": "git@github.com:mmedal/www.git",
   "homepage": "https://www.mmedal.me",
   "scripts": {
-    "develop": "nodemon --ext pug,less,md --ignore build/ --exec 'npm run build && npm run serve'",
-    "serve": "http-server build/ -p ${PORT:-3000} -c 0",
+    "develop": "npx nodemon --ext pug,less,md --ignore build/ --exec 'npm run build && npm run serve'",
+    "serve": "npx http-server build/ -p ${PORT:-3000} -c 0",
     "build": "./build.sh",
-    "deploy": "npm run build && push-dir --dir build --branch gh-pages --cleanup"
+    "deploy": "npm run build && npx push-dir --dir build --branch gh-pages --cleanup"
   },
   "devDependencies": {
     "git-credential-env": "1.0.0",
