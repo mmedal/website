@@ -20,5 +20,4 @@ npx lessc --clean-css css/app.less build/app.css
 cp CNAME build/
 cp static/favicon-196x196.png build/
 cp static/icons.svg build/
-cp -r fonts/social-fonts build/fonts/
 cp -r fonts/BerkeleyMono build/fonts/
